@@ -1,14 +1,15 @@
 {
-  "name": "cli",
+  "name": "svpe-config",
   "version": "0.1.0",
   "description": "An interactive cli to generate file",
   "main": "index.js",
+  "bin": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kaname06/cli.git"
+    "url": "git+https://github.com/kaname06/svpe-cli.git"
   },
   "keywords": [
     "cli"
@@ -21,6 +22,8 @@
   "homepage": "https://github.com/kaname06/cli#readme",
   "dependencies": {
     "commander": "^3.0.2",
+    "crypto-ts": "^1.0.2",
+    "fs-extra": "^8.1.0",
     "inquirer": "^7.0.0"
   }
 }

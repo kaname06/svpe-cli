@@ -16,7 +16,7 @@ Enjoy!
 
 ## Usage
 ```
-svpe-cli new
+svpe-cli
 
 ```
 
